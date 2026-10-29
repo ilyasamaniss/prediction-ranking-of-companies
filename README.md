@@ -1,5 +1,7 @@
 # Prediction and Ranking of Companies
 
+**Learning-to-rank for investment research:** the model's top-20 recommendations beat an equal-weight benchmark by **8.17% on average over 12-month horizons**.
+
 **Master's project, Université de Montréal | Mila, Quebec AI Institute founded by Yoshua Bengio (2020), in partnership with CDPQ (Caisse de dépôt et placement du Québec).**
 
 📄 **[Read the full report (PDF)](Prediction_and_Ranking_of_Companies.pdf)**
@@ -62,10 +64,10 @@ Hyperparameters were selected on the validation set. Clustering for the clustere
 | **Gradient boosting (XGBoost)** | Regression, classification | One model for the whole universe; random hyperparameter search; feature importance, tree inspection and SHAP for explanations |
 | **XGBoost with time-series windows** | Regression, classification | Previous 5 months of features and returns, flattened |
 | **LSTM (Keras)** | Regression, classification | 5-month windows kept as sequences; dropout, Adam, early stopping; per-timestep SHAP |
-| **LSTM with clustering (tslearn)** | Regression, classification | Companies clustered into 3 groups, one LSTM per cluster |
+| **LSTM with time-series clustering** | Regression, classification | Companies clustered into 3 groups, one LSTM per cluster |
 | **XGBoost learning-to-rank** | Ranking | Pairwise ranking loss, companies grouped by month |
 
-Built on AWS (SageMaker for training and notebooks, S3 for data), with scikit-learn, XGBoost, Keras, tslearn and SHAP.
+Built on AWS (SageMaker for training and notebooks, S3 for data), with scikit-learn, XGBoost, Keras, time-series clustering and SHAP.
 
 ## Results by task
 
