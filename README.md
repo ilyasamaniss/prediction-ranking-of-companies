@@ -2,6 +2,8 @@
 
 **Master's project, Mila / Université de Montréal (2020), in partnership with CDPQ (Caisse de dépôt et placement du Québec).**
 
+📄 **[Read the full report (PDF)](Prediction_and_Ranking_of_Companies.pdf)**
+
 Can machine learning surface the companies most likely to outperform their sector over the next 12 months, in a way that investors can understand and trust?
 
 This project framed that question three ways (regression, classification and learning-to-rank), compared classical time-series, tree-based and deep-learning models under a leakage-safe evaluation, and backtested the most useful one as a stock-selection tool.
@@ -96,6 +98,6 @@ Built on AWS (SageMaker for training and notebooks, S3 for data), with scikit-le
 
 ## About this repository
 
-This repository documents the project. The code and data belong to CDPQ and are not published here.
+This repository contains the full report and this summary. The code and data belong to CDPQ and are not published here.
 
 **Author:** Ilyas Amaniss, Master's in Machine Learning, Mila / Université de Montréal
