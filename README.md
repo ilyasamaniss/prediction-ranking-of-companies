@@ -1,6 +1,6 @@
 # Prediction and Ranking of Companies
 
-**Master's project, Mila / Université de Montréal (2020), in partnership with CDPQ (Caisse de dépôt et placement du Québec).**
+**Master's project, Université de Montréal | Mila, Quebec AI Institute founded by Yoshua Bengio (2020), in partnership with CDPQ (Caisse de dépôt et placement du Québec).**
 
 📄 **[Read the full report (PDF)](Prediction_and_Ranking_of_Companies.pdf)**
 
@@ -100,4 +100,4 @@ Built on AWS (SageMaker for training and notebooks, S3 for data), with scikit-le
 
 This repository contains the full report and this summary. The code and data belong to CDPQ and are not published here.
 
-**Author:** Ilyas Amaniss, Master's in Machine Learning, Mila / Université de Montréal
+**Author:** Ilyas Amaniss, Master's in Machine Learning, Université de Montréal | Mila
